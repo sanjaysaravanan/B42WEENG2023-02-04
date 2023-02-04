@@ -1,5 +1,5 @@
 Topics:
-  Part-1:
+  Part-1: ( 1hrs )
     Grid/flex concept, Row, Columns
 
     Grid-Sysytem:
@@ -23,22 +23,30 @@ Topics:
         using order class with prefix
           eg: order-sm-1, order-lg-3
 
-  Part-2:
-    visibility --> hidden and display ---> none
-    
-    n-type CSS, few more selectors
-      inner child tag selection
-      nth-typ
-    
+  Part-2: ( 40mins )
+    visibility --> hidden vs display ---> none
+    visibility --> hidden:
+      DOM hides the element from rendered UI, but it occupies space in rendered UI.
+    display ---> none:
+      DOM remove the element from rendered UI, but has in the DOM Tree
+
+    inner child selection
+    nth-type, nth selection 
+    input slections with type
+    few more selectors
+      
     CSS - Transitions along with few other css props
-  
-  Part 3: DOM - Manipulation
+    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+
+  Part 3: Intro DOM - Manipulation ( 1hrs )
     HTML
       | --> Head
               | --> title
       | --> Body
               | --> P
 
+Next Session: 
+  DOM - Manipulation
     Document
     createElement
     setAttribute
@@ -46,6 +54,9 @@ Topics:
     getElementByClassName
     append vs appendChild
     innerHTML vs innerText
+
+  CSS - variables --> Declaration and usage
+    Different Shapes in HTML
 
 
 
