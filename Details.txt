@@ -38,14 +38,14 @@ Topics:
     CSS - Transitions along with few other css props
     https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
 
-  Part 3: Intro DOM - Manipulation ( 1hrs )
+Next Session:
+
+  Intro DOM - Manipulation
     HTML
       | --> Head
               | --> title
       | --> Body
               | --> P
-
-Next Session: 
   DOM - Manipulation
     Document
     createElement
