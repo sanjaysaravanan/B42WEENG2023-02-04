@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <style>
+    .com-div {
+      height: 300px;
+    }
+
+    .small-div {
+      height: 50px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-lg">
+    <div class="row">
+      <!-- Ordering -->
+      <!-- order-sm-0 - sm, md, lg, xl, xxl will have order-0 -->
+      <div class="col-12 col-sm-6 col-md-4 order-md-2 order-1">
+        <div class="com-div bg-primary my-1">
+          <!-- Nesting -->
+          <div class="row">
+            <div class="col-12 col-sm-3 order-sm-2 order-0">
+              <div class="border border-2 border-dark">Col1</div>
+            </div>
+            <div class="col-12 col-sm-6 order-sm-1 order-1">
+              <div class="border border-2 border-dark">Col2</div>
+            </div>
+            <div class="col-12 col-sm-3 order-sm-0 order-2">
+              <div class="border border-2 border-dark">Col3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 order-md-0 order-0 col-md-4">
+        <div class="com-div bg-success my-1"></div>
+      </div>
+      <div class="col-12 col-sm-6 order-md-1 order-2 col-md-4">
+        <div class="com-div bg-danger my-1"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
